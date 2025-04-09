@@ -11,28 +11,25 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2023.9-, Ph.D Student, Keio University
+* 2022.4 - 2023.9, Master Cource, Keio University
+* 2018.4 - 2022.3, Bachelor Cource, Keio University
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023.12- : Research Assistant in National Institute of Advanced Industrial Science and Technology (AIST) 
+  * [Digital Human Research Team](https://dhrt.notion.site/Digital-Human-Research-Team-AIRC-AIST-8d53e3c09734402092effc93f52eee6a), Artificial Intelligence Research Center (AIRC)
+  * Duties includes: PPG-based Blood Pressure Estimation. Human Activity Recognition
+  * Supervisor: Suguru Kanoga
+<!-- 
+* 2022.8: Visiting Student 
+  * The University of Sydney
+  * Duties included: Wearable Input Interface
+  * Supervisor: Anusha Withana -->
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -61,4 +58,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
