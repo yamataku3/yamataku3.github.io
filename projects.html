@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Takumi Yamamoto</title>
+    <meta name="description" content="Projects by Takumi Yamamoto.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .page-header {
+            padding-top: 8rem;
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .project-card a.block-link {
+            display: contents; /* Ensure card hover effects work when wrapping link */
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="projects.html" style="color: var(--c-primary);">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i data-lucide="moon"></i></button></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="name" style="font-size: 3rem; margin-bottom: 0.5rem;">All Projects</h1>
+                <p class="summary" style="margin: 0 auto; max-width: 600px;">
+                    荳隕ｧ陦ｨ遉ｺ縺輔ｌ縺溘Μ繧ｵ繝ｼ繝√・繝ｭ繧ｸ繧ｧ繧ｯ繝医ｄ髢狗匱迚ｩ縺ｧ縺吶ょ推繧ｫ繝ｼ繝峨ｒ繧ｯ繝ｪ繝・け縺吶ｋ縺ｨ隧ｳ邏ｰ繝壹・繧ｸ縺ｸ驕ｷ遘ｻ縺励∪縺吶・                </p>
+            </div>
+        </section>
+
+        <section class="projects section-padding glass-section" style="margin-top: 0; padding-top: 2rem;">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <a href="project-detail.html" class="block-link" style="text-decoration: none; color: inherit;">
+                        <div class="card project-card">
+                            <div class="project-image"
+                                style="background: linear-gradient(135deg, #eee 0%, #ccc 100%); color: #333;">
+                                <i data-lucide="image" class="placeholder-icon"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>Project Alpha</h3>
+                                <p>隗ｦ隕壹ョ繝舌う繧ｹ繧堤畑縺・◆譁ｰ縺励＞繧ｳ繝溘Η繝九こ繝ｼ繧ｷ繝ｧ繝ｳ繧､繝ｳ繧ｿ繝ｼ繝輔ぉ繝ｼ繧ｹ縺ｮ遐皮ｩｶ髢狗匱繝励Ο繝医ち繧､繝励・/p>
+                                <div class="tags">
+                                    <span class="tag">Hardware</span>
+                                    <span class="tag">C++</span>
+                                    <span class="tag">Arduino</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 2 -->
+                    <a href="project-detail.html" class="block-link" style="text-decoration: none; color: inherit;">
+                        <div class="card project-card">
+                            <div class="project-image"
+                                style="background: linear-gradient(135deg, #ddd 0%, #aaa 100%); color: #333;">
+                                <i data-lucide="monitor" class="placeholder-icon"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>Project Beta</h3>
+                                <p>繝ｦ繝ｼ繧ｶ繝ｼ縺ｮ隕也ｷ壽ュ蝣ｱ繧呈ｴｻ逕ｨ縺励◆隕冶ｦ夐囿螳ｳ閠・髄縺代・繧ｦ繧ｧ繝悶ヶ繝ｩ繧ｦ繧ｸ繝ｳ繧ｰ謾ｯ謠ｴ繧ｷ繧ｹ繝・Β縲・/p>
+                                <div class="tags">
+                                    <span class="tag">Web</span>
+                                    <span class="tag">Eye-tracking</span>
+                                    <span class="tag">Python</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Project 3 -->
+                    <a href="project-detail.html" class="block-link" style="text-decoration: none; color: inherit;">
+                        <div class="card project-card">
+                            <div class="project-image"
+                                style="background: linear-gradient(135deg, #ccc 0%, #999 100%); color: #333;">
+                                <i data-lucide="smartphone" class="placeholder-icon"></i>
+                            </div>
+                            <div class="project-info">
+                                <h3>Project Gamma</h3>
+                                <p>繧ｹ繝槭・繝医ヵ繧ｩ繝ｳ繧貞茜逕ｨ縺励◆AR繝翫ン繧ｲ繝ｼ繧ｷ繝ｧ繝ｳ繧｢繝励Μ繧ｱ繝ｼ繧ｷ繝ｧ繝ｳ縲・/p>
+                                <div class="tags">
+                                    <span class="tag">AR</span>
+                                    <span class="tag">Unity</span>
+                                    <span class="tag">C#</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Takumi Yamamoto. Built with HTML, CSS & JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
+

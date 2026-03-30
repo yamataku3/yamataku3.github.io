@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Takumi Yamamoto</title>
+    <meta name="description" content="Publications by Takumi Yamamoto.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .page-header {
+            padding-top: 8rem;
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+
+        .pub-card {
+            margin-bottom: 1.5rem;
+        }
+
+        .pub-card:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <header class="header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="publications.html" style="color: var(--c-primary);">Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><button id="theme-toggle" aria-label="Toggle Dark Mode"><i data-lucide="moon"></i></button></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i data-lucide="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="name" style="font-size: 3rem; margin-bottom: 0.5rem;">All Publications</h1>
+                <p class="summary" style="margin: 0 auto; max-width: 600px;">
+                    Conference papers, journal articles, and workshop papers.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-padding glass-section" style="margin-top: 0; padding-top: 2rem;">
+            <div class="container">
+                <div class="pub-list">
+                    <div class="card pub-card">
+                        <div class="pub-year">2026</div>
+                        <div class="pub-content">
+                            <h3 class="pub-title">Sample Publication Title 1</h3>
+                            <p class="pub-authors"><b>Takumi Yamamoto</b>, Co-Author A, Co-Author B</p>
+                            <p class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems (CHI 2026)</p>
+                            <div class="pub-links">
+                                <a href="#" class="btn-small"><i data-lucide="file-text"></i> Paper</a>
+                                <a href="#" class="btn-small"><i data-lucide="external-link"></i> DOI</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card pub-card">
+                        <div class="pub-year">2025</div>
+                        <div class="pub-content">
+                            <h3 class="pub-title">Sample Publication Title 2</h3>
+                            <p class="pub-authors">Co-Author A, <b>Takumi Yamamoto</b>, Co-Author C</p>
+                            <p class="pub-venue">ACM Symposium on User Interface Software and Technology (UIST 2025)</p>
+                            <div class="pub-links">
+                                <a href="#" class="btn-small"><i data-lucide="file-text"></i> Paper</a>
+                                <a href="#" class="btn-small"><i data-lucide="presentation"></i> Slides</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card pub-card">
+                        <div class="pub-year">2024</div>
+                        <div class="pub-content">
+                            <h3 class="pub-title">Sample Publication Title 3</h3>
+                            <p class="pub-authors"><b>Takumi Yamamoto</b>, Co-Author D</p>
+                            <p class="pub-venue">Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</p>
+                            <div class="pub-links">
+                                <a href="#" class="btn-small"><i data-lucide="file-text"></i> Paper</a>
+                                <a href="#" class="btn-small"><i data-lucide="video"></i> Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Takumi Yamamoto. Built with HTML, CSS & JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>

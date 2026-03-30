@@ -1,21 +1,21 @@
 /* ===== Custom Properties & Theme Setup ===== */
 :root {
     /* Light Theme Colors */
-    --c-bg: #f8fafc;
+    --c-bg: #ffffff;
     --c-surface: rgba(255, 255, 255, 0.7);
     --c-surface-hover: rgba(255, 255, 255, 0.9);
-    --c-text-primary: #0f172a;
-    --c-text-secondary: #475569;
-    --c-text-muted: #94a3b8;
+    --c-text-primary: #000000;
+    --c-text-secondary: #444444;
+    --c-text-muted: #888888;
     
-    --c-primary: #3b82f6;
-    --c-primary-hover: #2563eb;
-    --c-secondary: #8b5cf6;
+    --c-primary: #000000;
+    --c-primary-hover: #333333;
+    --c-secondary: #555555;
     
-    --c-border: rgba(15, 23, 42, 0.1);
+    --c-border: rgba(0, 0, 0, 0.15);
     
-    --c-blob-1: rgba(59, 130, 246, 0.3);
-    --c-blob-2: rgba(139, 92, 246, 0.3);
+    --c-blob-1: rgba(0, 0, 0, 0.03);
+    --c-blob-2: rgba(0, 0, 0, 0.02);
 
     /* Shadows & Effects */
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -35,21 +35,21 @@
 }
 
 [data-theme="dark"] {
-    --c-bg: #0f172a;
-    --c-surface: rgba(30, 41, 59, 0.7);
-    --c-surface-hover: rgba(30, 41, 59, 0.9);
-    --c-text-primary: #f8fafc;
-    --c-text-secondary: #cbd5e1;
-    --c-text-muted: #64748b;
+    --c-bg: #0f0f0f;
+    --c-surface: rgba(30, 30, 30, 0.7);
+    --c-surface-hover: rgba(30, 30, 30, 0.9);
+    --c-text-primary: #ffffff;
+    --c-text-secondary: #cccccc;
+    --c-text-muted: #777777;
     
-    --c-primary: #60a5fa;
-    --c-primary-hover: #93c5fd;
-    --c-secondary: #a78bfa;
+    --c-primary: #ffffff;
+    --c-primary-hover: #cccccc;
+    --c-secondary: #aaaaaa;
     
-    --c-border: rgba(255, 255, 255, 0.1);
+    --c-border: rgba(255, 255, 255, 0.15);
     
-    --c-blob-1: rgba(59, 130, 246, 0.2);
-    --c-blob-2: rgba(139, 92, 246, 0.2);
+    --c-blob-1: rgba(255, 255, 255, 0.03);
+    --c-blob-2: rgba(255, 255, 255, 0.02);
     
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
@@ -368,13 +368,17 @@ h1, h2, h3, h4 {
 }
 
 .tag {
-    background: rgba(59, 130, 246, 0.1);
-    color: var(--c-primary);
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--c-text-primary);
     padding: 0.3rem 0.8rem;
     border-radius: var(--radius-full);
     font-size: 0.85rem;
     font-weight: 500;
-    border: 1px solid rgba(59, 130, 246, 0.2);
+    border: 1px solid var(--c-border);
+}
+
+[data-theme="dark"] .tag {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 /* ===== Hero Section ===== */
@@ -474,7 +478,7 @@ h1, h2, h3, h4 {
     width: 320px;
     height: 320px;
     border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
     border: 2px solid var(--c-border);
     display: flex;
     align-items: center;
@@ -482,6 +486,10 @@ h1, h2, h3, h4 {
     color: var(--c-text-muted);
     animation: morph 8s ease-in-out infinite both alternate;
     box-shadow: var(--shadow-xl);
+}
+
+[data-theme="dark"] .profile-image-placeholder {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
 }
 
 .profile-image-placeholder i {
