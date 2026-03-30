@@ -114,4 +114,23 @@ document.addEventListener('DOMContentLoaded', () => {
         section.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
         sectionObserver.observe(section);
     });
+
+    // 6. Under Construction Banner
+    const banner = document.createElement('div');
+    banner.innerText = '🚧 このサイトは現在制作中です 🚧';
+    banner.style.position = 'fixed';
+    banner.style.bottom = '0';
+    banner.style.left = '0';
+    banner.style.width = '100%';
+    banner.style.backgroundColor = 'var(--c-primary, #007aff)';
+    banner.style.color = '#fff';
+    banner.style.textAlign = 'center';
+    banner.style.padding = '10px 0';
+    banner.style.fontWeight = '600';
+    banner.style.zIndex = '9999';
+    banner.style.boxShadow = '0 -2px 10px rgba(0,0,0,0.1)';
+    banner.style.backdropFilter = 'blur(10px)';
+    
+    document.body.style.paddingBottom = '44px';
+    document.body.appendChild(banner);
 });
