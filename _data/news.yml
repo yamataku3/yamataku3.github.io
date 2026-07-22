@@ -1,0 +1,179 @@
+# News items — newest first is not required, the templates sort by date.
+# date: "YYYY-MM" (or "YYYY-MM-DD")
+# en / ja: bilingual text shown via the lang-toggle
+
+- date: "2026-07"
+  en: "Renewal my portfolio!"
+  ja: "ポートフォリオをリニューアルしました！"
+
+- date: "2026-03"
+  en: "Received the Good Paper Award at Interaction 2026."
+  ja: "インタラクション2026で優秀論文賞をいただきました。"
+
+- date: "2026-01"
+  en: "Two papers (x1 first, x1 co-authors) were conditionally accepted from CHI2026!"
+  ja: "2件の論文（主著1件、共著1件）がCHI2026に条件付き採択されました！"
+
+- date: "2025-12"
+  en: "One paper was accepted from International Journal of Human-Computer Interaction."
+  ja: "International Journal of Human-Computer Interactionに論文が1件採択されました。"
+
+- date: "2025-12"
+  en: "I did the presentation in WISS2025, and got the demo award (program committee)!"
+  ja: "WISS2025で発表を行い、対話発表賞（プログラム委員）をいただきました！"
+
+- date: "2025-09"
+  en: "I attended UIST2025!"
+  ja: "UIST2025に参加しました！"
+
+- date: "2025-09"
+  en: "I finished visiting MIT. It was a fantastic time."
+  ja: "MITでの訪問期間を終えました。とても素晴らしい時間でした。"
+
+- date: "2025-09"
+  en: "One paper got the encouraging award at FIT2025. First author Shogo did an excellent job!"
+  ja: "FIT2025にて論文が奨励賞を受賞しました。筆頭著者の勝吾さんの成果です！"
+
+- date: "2025-05"
+  en: "I joined the HCI Engineering Group at MIT CSAIL (PI: Stefanie Mueller) as a visiting PhD student."
+  ja: "MIT CSAILのHCI Engineering Group（主宰: Stefanie Mueller教授）に客員博士課程学生として参加しました。"
+
+- date: "2025-05"
+  en: "One paper was accepted in MobileHCI 2025 (published in PACMHCI)."
+  ja: "MobileHCI 2025（PACMHCI掲載）に論文が1件採択されました。"
+
+- date: "2025-05"
+  en: "I became a visiting PhD student at the HCIE Group at MIT CSAIL, advised by Prof. Stefanie Mueller!"
+  ja: "MIT CSAILのHCIEグループで、Stefanie Mueller教授のもとで客員博士課程学生になりました！"
+
+- date: "2025-05"
+  en: "One paper was accepted from SICE Journal of Control, Measurement, and System Integration."
+  ja: "SICE Journal of Control, Measurement, and System Integrationに論文が1件採択されました。"
+
+- date: "2025-04"
+  en: "One paper was accepted from CHI 2025. I also attended the CHI 2025 at Yokohama."
+  ja: "CHI 2025に論文が1件採択されました。横浜で開催されたCHI 2025にも参加しました。"
+
+- date: "2025-03"
+  en: "One co-author paper was presented in Interaction 2025."
+  ja: "共著論文1件がインタラクション2025で発表されました。"
+
+- date: "2025-01"
+  en: "I attended SII2025 and did the presentation about the project RA in AIST."
+  ja: "SII2025に参加し、産総研でのRAプロジェクトについて発表しました。"
+
+- date: "2025-01"
+  en: "ShadoCookies paper was accepted from Computers & Graphics."
+  ja: "ShadoCookiesの論文がComputers & Graphicsに採択されました。"
+
+- date: "2024-12"
+  en: "Attended Digital Human Symposium 2024 and gave a poster presentation as an RA."
+  ja: "Digital Human Symposium 2024に参加しRAとしてポスター発表を行いました．"
+
+- date: "2024-12"
+  en: "Attended WISS2024 and gave a demo presentation."
+  ja: "WISS2024に参加しデモ発表を行いました。"
+
+- date: "2024-12"
+  en: "One paper (involved as co-author) got accepted from TEI2025."
+  ja: "1件の共著論文がTEI2025に採択されました．"
+
+- date: "2024-11"
+  en: "Four papers (one main author, the other co-author) were accepted from SII2025."
+  ja: "4件の論文（主著1件，共著3件）がSII2025に採択されました．"
+
+- date: "2024-11"
+  en: "I attended AsiaHaptics 2024 and did the demo!"
+  ja: "AsiaHaptics に参加しデモ発表をしました！"
+
+- date: "2024-09"
+  en: "Two co-authored papers were presented at the Human Interface Symposium 2024."
+  ja: "共著論文2件がヒューマンインタフェースシンポジウム2024で発表します．"
+
+- date: "2024-09"
+  en: "One paper (involved as co-author) got accepted in MobileHCI 2024."
+  ja: "共著論文1件がMobile HCI 2024に採択されました。"
+
+- date: "2024-09"
+  en: "One paper was accepted from AsiaHaptics 2024."
+  ja: "AsiaHaptics 2024に論文が1件採択されました。"
+
+- date: "2024-02"
+  en: "Presenting 2 first-author papers (1 oral, 1 demo) and 5 co-authored papers (1 oral, 4 demo) at Interaction 2024, held in March."
+  ja: "3月に行われるインタラクション2024で主著2件（口頭1件、デモ1件）と共著5件（口頭1件、デモ4件）の発表を行います。"
+
+- date: "2023-12"
+  en: "Joined the Digital Human Research Team at the Artificial Intelligence Research Center, AIST, as a Research Assistant."
+  ja: "Research Assistantとして産業技術総合研究所人工知能研究センターデジタルヒューマン研究チームに所属しました。"
+
+- date: "2023-12"
+  en: "Attended WISS2023 and gave a demo presentation."
+  ja: "WISS2023に参加しデモ発表を行いました。"
+
+- date: "2023-10"
+  en: "Selected for Keio University's JST SPRING (Support for Pioneering Research Initiated by the Next Generation) program."
+  ja: "慶應義塾大学のJST次世代研究者挑戦的研究プログラムに採択されました。"
+
+- date: "2023-10"
+  en: "Two papers (involved as co-author) got accepted in SII2024."
+  ja: "共著論文２件がSII2024に採択されました。"
+
+- date: "2023-09"
+  en: "Selected for JSPS DC1 (Research Fellowship for Young Scientists)."
+  ja: "学振DC1に採択されました。"
+
+- date: "2023-09"
+  en: "I got the master degree and became a Ph.D student."
+  ja: "修士号を取得し、博士後期課程に進学しました。"
+
+- date: "2023-09"
+  en: "One paper (involved as co-author) got accepted in ISS2023."
+  ja: "共著論文1件がISS2023に採択されました。"
+
+- date: "2023-09"
+  en: "Presented Masktrap in the Top Conference Session at FIT2023. Also presented a first-author paper and received the FIT Encouragement Award."
+  ja: "FIT2023のトップコンファレンスセッションでMasktrapの発表をしました。また、主著論文1件を発表しFIT奨励賞を頂きました。"
+
+- date: "2023-08"
+  en: "Three co-authored papers were presented at the 40th Sensing Forum."
+  ja: "共著論文3件が第40回センシングフォーラムで発表します。"
+
+- date: "2023-08"
+  en: "I attended APMAR2023 and presented a shape-changing shuttle project. Taiwan is cool."
+  ja: "APMAR2023に参加し、形状変化するシャトルのプロジェクトを発表しました。台湾は最高でした。"
+
+- date: "2023-07"
+  en: "Two papers (one main author, the other co-author) were accepted in APMAR2023."
+  ja: "2件の論文（主著1件、共著1件）がAPMAR2023に採択されました。"
+
+- date: "2023-07"
+  en: "One paper (involved as co-author) got accepted in ISWC2023 Notes."
+  ja: "共著論文1件がISWC2023 Notesに採択されました。"
+
+- date: "2023-06"
+  en: "Attended CHI study session 2023 — a reminder of just how diverse HCI is..."
+  ja: "CHI勉強会2023に参加。HCIの多様性に改めて気づかされました．．．．"
+
+- date: "2023-05"
+  en: "Two co-authored papers were presented at ROBOMECH2023."
+  ja: "共著論文(2件)がROBOMECH2023で発表します。"
+
+- date: "2023-05"
+  en: "Invited to the Top Conference Session at FIT2023!"
+  ja: "FIT2023のトップカンファレンスセッションに招待されました!"
+
+- date: "2023-04"
+  en: "I went to Australia and attended IUI 2023."
+  ja: "オーストラリアに渡航し、IUI 2023に参加しました。"
+
+- date: "2023-02"
+  en: "FurAnimation's journal paper was just accepted in Computers and Graphics!"
+  ja: "FurAnimationのジャーナル論文がComputers and Graphicsに採択されました！"
+
+- date: "2023-02"
+  en: "Masktrap project's full paper was accepted in IUI 2023!"
+  ja: "MasktrapプロジェクトのフルペーパーがIUI 2023に採択されました！"
+
+- date: "2023-02"
+  en: "Open my Portfolio!"
+  ja: "ポートフォリオを公開しました！"

@@ -1,33 +1,615 @@
 # Publications data
 # year: publication year
 # title: paper title
-# authors: author list — use *Your Name* to bold your name
-# venue: conference or journal name
+# authors: author list — use **Your Name** to bold your own name
+# venue: conference or journal name (plain text; equal-contribution / IF / acceptance-rate notes go here)
+# type: Journal | International Conference (Paper) | International Conference (Demo/Poster)
 # links: optional links (pdf, arxiv, code, doi)
 
-- year: 2026
-  title: "Your Paper Title Here: A Study on Something Interesting"
-  authors: "**Your Name**, Co-author A, Co-author B"
-  venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
-  links:
-    - label: PDF
-      url: "#"
-      badge: badge-pdf
-    - label: arXiv
-      url: "#"
-      badge: badge-arxiv
-    - label: Code
-      url: "#"
-      badge: badge-code
+# --- Journal ---
 
-- year: 2025
-  title: "Another Paper Title: Improving Something with New Method"
-  authors: "Co-author A, **Your Name**, Co-author C"
-  venue: "Proceedings of EMNLP 2025"
+- type: Journal
+  year: 2026
+  title: "FoodKinetics: A toolkit for putting food into motion"
+  authors: "Ryogo Miyazaki, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Entertainment Computing (IF 2.4)"
   links:
-    - label: PDF
-      url: "#"
-      badge: badge-pdf
     - label: DOI
-      url: "#"
+      url: "https://www.sciencedirect.com/science/article/pii/S187595212600087X"
+      badge: badge-doi
+
+- type: Journal
+  year: 2026
+  title: "Selfie WanD: Designing User-Defined Gestures for Selfie Stick Photography and Gesture Recognition Using a Smartphone's Built-in IMU"
+  authors: "**Takumi Yamamoto**, Naoharu Sawada, Yukina Sato, Takashi Amesaka, Yuta Sugiura"
+  venue: "International Journal of Human-Computer Interaction (Yamamoto & Sawada, co-first authors; IF 2024: 4.9)"
+  links:
+    - label: DOI
+      url: "https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2589497"
+      badge: badge-doi
+
+- type: Journal
+  year: 2025
+  title: "ScanRing: Hybrid Authentication System in a Ring Device Using a Distance Sensor and an IMU Sensor"
+  authors: "Kai Miyashita, Takashi Amesaka, Shogo Hanayama, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Proc. ACM Hum.-Comput. Interact., MobileHCI 2025 (IF 2023: 4.06)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3743737"
+      badge: badge-doi
+
+- type: Journal
+  year: 2025
+  title: "CradleCoach: A Smartphone and Stuffed Animal-Based System for Teaching Neonate Holding Based on Midwife-Inspired Motions"
+  authors: "**Takumi Yamamoto**, Hiyori Tsuji, Sora Yamaji, Maiko Kobayashi, Kyoshiro Sasaki, Noriko Aso, Yuta Sugiura"
+  venue: "Yamamoto & Tsuji, co-first authors — SICE Journal of Control, Measurement, and System Integration"
+  links:
+    - label: DOI
+      url: "https://www.tandfonline.com/doi/full/10.1080/18824889.2025.2501830"
+      badge: badge-doi
+
+- type: Journal
+  year: 2025
+  title: "ShadoCookies: Creating user viewpoint-dependent information displays on edible cookies"
+  authors: "**Takumi Yamamoto**, Takashi Amesaka, Anusha Withana, Yuta Sugiura"
+  venue: "Computers & Graphics 127 (2025): 104158 (IF 2024: 2.8)"
+  project: shadocookies
+  links:
+    - label: DOI
+      url: "https://www.sciencedirect.com/science/article/pii/S0097849324002930"
+      badge: badge-doi
+
+- type: Journal
+  year: 2024
+  title: "Exploring User-Defined Gestures as Input for Hearables and Recognizing Ear-Level Gestures with IMUs"
+  authors: "Yukina Sato, Takashi Amesaka, **Takumi Yamamoto**, Hiroki Watanabe, Yuta Sugiura"
+  venue: "Sato & Amesaka, co-first authors — Proc. ACM Hum.-Comput. Interact., MobileHCI 2024 (IF 2023: 4.06)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3676503"
+      badge: badge-doi
+
+- type: Journal
+  year: 2023
+  title: "Seeing the Wind: An Interactive Mist Interface for Airflow Input"
+  authors: "Tian Min, Chengshuo Xia, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Min & Xia, co-first authors — Proc. ACM Hum.-Comput. Interact. 7, ISS, Article 444 (December 2023), 22 pages (IF 2023: 4.06)"
+  links:
+    - label: DOI
+      url: "https://doi.org/10.1145/3626480"
+      badge: badge-doi
+
+- type: Journal
+  year: 2023
+  title: "Turning carpets into multi-image switchable displays"
+  authors: "**Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Computers & Graphics, Volume 111, 2023, Pages 190–198, ISSN 0097-8493 (IF 2023: 2.5)"
+  links:
+    - label: DOI
+      url: "https://doi.org/10.1016/j.cag.2023.02.005"
+      badge: badge-doi
+
+- type: Journal
+  year: 2022
+  title: "A robotic system for images on carpet surface"
+  authors: "**Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Graphics and Visual Computing, Volume 6, 2022, 200045, ISSN 2666-6294"
+  links:
+    - label: DOI
+      url: "https://doi.org/10.1016/j.gvc.2022.200045"
+      badge: badge-doi
+
+# --- International Conference (Paper, Peer Reviewed) ---
+
+- type: International Conference (Paper)
+  year: 2026
+  title: "Zip-up Print: Rapid and Assemblable 3D printing Using 2D Flattened Zipper-like Structures"
+  authors: "**Takumi Yamamoto**, Jiaji Li, Akib Zaman, Noah Barnes, Yuta Sugiura, Stefanie Mueller, Koya Narumi"
+  venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)"
+  project: zip-up-print
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3772318.3790538"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2026
+  title: "Y-zipper: 3D Printing Flexible–Rigid Transition Mechanism for Rapid and Reversible Assembly"
+  authors: "Jiaji Li, Xiang Chang, Mingming Li, Dingning Cao, Maxine Perroni-Scharf, Jeremy Mrzyglocki, **Takumi Yamamoto**, William Freeman, Stefanie Mueller"
+  venue: "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3772318.3790723"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "Effects of Avatar Nodding and Transparency Changes on Conversation in the Metaverse"
+  authors: "Yuki Kida, **Takumi Yamamoto**, Yohei Kawasaki, Kazuma Sumida, Kei Matsuoka, Tetsuro Ogi"
+  venue: "The 28th International Conference on Network-Based Information Systems (NBiS-2025), Sep 3–5, 2025, Asia University, Taichung, Taiwan"
+  links:
+    - label: DOI
+      url: "https://link.springer.com/chapter/10.1007/978-3-032-06161-4_11"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "FlexEar-Tips: Shape-Adjustable Ear Tips Using Pressure Control"
+  authors: "Takashi Amesaka, **Takumi Yamamoto**, Hiroki Watanabe, Buntarou Shizuki, Yuta Sugiura"
+  venue: "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3706598.3714177"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "Ambient Display Utilizing Anisotropy of Tatami"
+  authors: "Riku Kitamura, Kenji Yamada, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Proceedings of the Nineteenth International Conference on Tangible, Embedded, and Embodied Interaction (TEI '25)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3689050.3704924"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "Comparison of Nine Deep Regressors in Continuous Blood Pressure Estimation Using Single-Channel Photoplethysmograms under the PulseDB"
+  authors: "**Takumi Yamamoto**, Suguru Kanoga, Yuta Sugiura"
+  venue: "2025 IEEE/SICE International Symposium on System Integration (SII '25)"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10871083/"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "CradlePosture: Camera-Based Approach for Estimating Neonate's Posture Based on Caregiver's Holding Behaviors"
+  authors: "Hiyori Tsuji, **Takumi Yamamoto**, Maiko Kobayashi, Kyoshiro Sasaki, Noriko Aso, Yuta Sugiura"
+  venue: "2025 IEEE/SICE International Symposium on System Integration (SII '25)"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10870587"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "SkinRing: Ring-shaped Device Enabling Wear Direction-Independent Gesture Input on Side of Finger"
+  authors: "Shogo Hanayama, Riku Kitamura, **Takumi Yamamoto**, Takashi Amesaka, Liwei Chan, Yuta Sugiura"
+  venue: "2025 IEEE/SICE International Symposium on System Integration (SII '25)"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10871054"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2025
+  title: "GestEarrings: Developing Gesture-Based Input Techniques for Earrings"
+  authors: "Takehisa Furuuchi, **Takumi Yamamoto**, Takashi Amesaka, Katsutoshi Masai, Yuta Sugiura"
+  venue: "2025 IEEE/SICE International Symposium on System Integration (SII '25)"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10871112"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2024
+  title: "Smartphone-Based Teaching System for Neonate Soothing Motions"
+  authors: "Hiyori Tsuji, **Takumi Yamamoto**, Sora Yamaji, Maiko Kobayashi, Kyoshiro Sasaki, Noriko Aso, Yuta Sugiura"
+  venue: "SII 2024, IEEE"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10417485/"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2024
+  title: "Converting Tatamis into Touch Sensors by Measuring Capacitance"
+  authors: "Naoharu Sawada, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "SII 2024, IEEE"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/10417676"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2023
+  title: "TouchLog: Micro Finger Gestures Recognition Using Photo-Reflective Sensors"
+  authors: "Riku Kitamura, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "Proceedings of the 2023 ACM International Symposium on Wearable Computers (ISWC '23), ACM, 92–97, Oct 8–12, 2023, Cancún, Mexico (Acceptance rate: 19.4%)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3594738.3611371"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2023
+  title: "A Virtual Window Using Curtains and Image Projection"
+  authors: "Naoharu Sawada, **Takumi Yamamoto**, Yuta Sugiura"
+  venue: "The 15th Asia-Pacific Workshop on Mixed and Augmented Reality (APMAR2023), Aug 18–19, 2023, Taiwan"
+  links:
+    - label: DOI
+      url: "https://ceur-ws.org/Vol-3467/short4.pdf"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2023
+  title: "Augmented Sports of Badminton by Changing Opening Status of Shuttle's Feathers"
+  authors: "**Takumi Yamamoto**, Ryohei Baba, Yuta Sugiura"
+  venue: "Yamamoto & Baba, equal contribution — The 15th Asia-Pacific Workshop on Mixed and Augmented Reality (APMAR2023), Aug 18–19, 2023, Taiwan"
+  links:
+    - label: DOI
+      url: "https://ceur-ws.org/Vol-3467/short2.pdf"
+      badge: badge-doi
+
+- type: International Conference (Paper)
+  year: 2023
+  title: "Masktrap: Designing and Identifying Gestures to Transform Mask Strap into an Input Interface"
+  authors: "**Takumi Yamamoto**, Katsutoshi Masai, Anusha Withana, Yuta Sugiura"
+  venue: "28th International Conference on Intelligent User Interfaces (IUI '23), March 27–31, 2023, Sydney, NSW, Australia (Acceptance rate: about 24%)"
+  links:
+    - label: DOI
+      url: "https://doi.org/10.1145/3581641.3584062"
+      badge: badge-doi
+
+# --- International Conference (Demo or Poster, Peer Reviewed) ---
+
+- type: International Conference (Demo/Poster)
+  year: 2026
+  title: "Single-Stroke Inflatable Tubes Deforming into Freeform Planar Curves"
+  authors: "Rin Ishiguro, Jumpei Saito, Mayuka Kuwana, **Takumi Yamamoto**, Naoki Kobayashi, Ko Fujino, Koya Narumi"
+  venue: "SIGGRAPH Posters '26 (accepted)"
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3799825.3818724"
+      badge: badge-doi
+
+- type: International Conference (Demo/Poster)
+  year: 2024
+  title: "EnchantedClothes: Visual and Tactile Feedback with an Abdomen-Attached Robot through Clothes"
+  authors: "**Takumi Yamamoto**, Rin Yosimura, Yuta Sugiura"
+  venue: "AsiaHaptics 2024"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2411.05102"
+      badge: badge-doi
+
+- type: International Conference (Demo/Poster)
+  year: 2024
+  title: "Creating viewpoint-dependent appearance on Edible Cookies"
+  authors: "**Takumi Yamamoto**, Biyon Fernando, Takashi Amesaka, Anusha Withana, Yuta Sugiura"
+  venue: "Augmented Humans 2024"
+  project: shadocookies
+  links:
+    - label: DOI
+      url: "https://dl.acm.org/doi/10.1145/3652920.3653051"
+      badge: badge-doi
+
+- type: International Conference (Demo/Poster)
+  year: 2022
+  title: "Demonstration of Multi-image Switchable Visual Displays Using Carpets"
+  authors: "**Takumi Yamamoto**, Yuta Sugiura"
+  venue: "2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Singapore, 2022, pp. 893–894"
+  links:
+    - label: DOI
+      url: "https://ieeexplore.ieee.org/document/9974554"
+      badge: badge-doi
+
+# --- Domestic Conference ---
+# NOTE: years marked "(estimated)" below were not explicitly stated in the
+# source list; inferred from the entry's position relative to dated neighbors.
+# Please confirm.
+
+- type: Domestic Conference
+  year: 2026
+  title: "3Dプリントした導電性ジッパーによる開閉センサの検討"
+  authors: "小林直生, 山田将之, **山本匠**, 杉浦裕太, 鳴海紘也"
+  venue: "FIT2026（第25回情報科学技術フォーラム）"
+  links: []
+
+- type: Domestic Conference
+  year: 2026
+  title: "FoodKinetics：食品に動きを与えるツールキット"
+  authors: "宮﨑亮吾，**山本匠**，杉浦裕太"
+  venue: "SIG-PUI1（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2026
+  title: "Zip-up Print: ジッパーを用いた高速かつ省サポート材の3Dプリント手法"
+  authors: "**山本匠**，Jiaji Li，Akib Zaman，Noah Barnes，杉浦裕太，Stefanie Mueller，鳴海紘也"
+  venue: "インタラクション2026, 2026年3月（Acceptance rate = 57%）"
+  project: zip-up-print
+  links: []
+
+- type: Domestic Conference
+  year: 2026
+  title: "LLM搭載家庭用ロボットの対話スタイルがラポールとタスク性能に与える影響"
+  authors: "吉田馨, **山本匠**, 小橋洋平, 杉浦裕太"
+  venue: "インタラクション2026"
+  links: []
+
+- type: Domestic Conference
+  year: 2026
+  title: "AudioProgress: 空間オーディオを用いた進捗状況提示によるオーディオブックにおける体験拡張"
+  authors: "中村祐大，**山本匠**，杉浦裕太"
+  venue: "インタラクション2026"
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "一筆書きのパウチモータによる展開可能な３次元形状の実現"
+  authors: "石黒凜，齋藤淳平，**山本匠**，桑名真結香，鳴海紘也"
+  venue: "第216回ヒューマンコンピュータインタラクション研究発表会，宮古島未来創造センター，宮古島（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "Zip-up Print: ジッパーを用いた高速かつ省サポート材の3Dプリント手法"
+  authors: "**山本匠**，Jiaji Li，Akib Zaman，Noah Barnes，杉浦裕太，Stefanie Mueller，鳴海紘也"
+  venue: "第33回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2025), 2025年12月5日（対話発表賞（プログラム委員）)"
+  project: zip-up-print
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "Dishplay：シリアルの磁気応答を利用した可食ディスプレイシステム"
+  authors: "大津陽翔, **山本匠**, 杉浦裕太"
+  venue: "第33回インタラクティブシステムとソフトウェアに関するワークショップ (WISS 2025), 2025年12月3日"
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "駐車時における自動車ハンドルの回転角フィードバックシステムの評価"
+  authors: "花山勝吾，**山本匠**，杉浦裕太"
+  venue: "第24回情報科学技術フォーラム(FIT2025)，北海道科学大学，札幌（FIT奨励賞）"
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "連続型パウチモータによる曲面設計のための熱融着パターン"
+  authors: "石黒凜，**山本匠**，新山龍馬，鳴海紘也"
+  venue: "第87回情報処理学会全国大会，立命館大学大阪いばらきキャンパス，大阪（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2025
+  title: "測距センサとIMUセンサを用いた指輪型デバイスにおける顔認証システムの提案"
+  authors: "宮下海，雨坂宇宙，**山本匠**，花山勝吾，杉浦裕太"
+  venue: "インタラクション2025，学術総合センター内一橋記念講堂，東京（プレミアム発表）"
+  links: []
+
+- type: Domestic Conference
+  year: 2024
+  title: "脈波ベース血圧推定深層学習モデルの比較とテストユーザのデータ含有による性能変化の検証"
+  authors: "**山本匠**"
+  venue: "デジタルヒューマン・シンポジウム 2024「現場を変革するデジタルヒューマン」, docomo R&D Open Lab ODAIBA, 東京"
+  links: []
+
+- type: Domestic Conference
+  year: 2024
+  title: "ShapeReading: 厚みを触覚提示することで進捗を提示するデバイスの提案"
+  authors: "**山本匠**，雨坂宇宙，Tian Min，杉浦裕太"
+  venue: "WISS 2024（第32回インタラクティブシステムとソフトウェアに関するワークショップ），苗場プリンスホテル，新潟"
+  links: []
+
+- type: Domestic Conference
+  year: 2024
+  title: "測距センサを用いた指輪型デバイスにおける顔認証システムの提案"
+  authors: "宮下海，雨坂宇宙，**山本匠**，杉浦裕太"
+  venue: "ヒューマンインタフェースシンポジウム 2024, 京都大学 吉田キャンパス, 京都"
+  links: []
+
+- type: Domestic Conference
+  year: 2024
+  title: "Pivoty: 植物を動かす外付けデバイス"
+  authors: "小野里菜摘，**山本匠**，井上正樹，杉浦裕太"
+  venue: "ヒューマンインタフェースシンポジウム 2024, 京都大学 吉田キャンパス, 京都（ショートビデオ特別賞）"
+  links: []
+
+- type: Domestic Conference
+  year: 2024
+  title: "ShadoCookies: 視点位置に依存して情報切り替え可能なクッキー製造手法"
+  authors: "**山本匠**，Biyon Fernando，雨坂宇宙，Anusha Withana，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京"
+  project: shadocookies
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/INT24003.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "ヒアラブルへの入力を想定したユーザ定義型ジェスチャ調査とIMUセンサによる耳タッチジェスチャの認識"
+  authors: "佐藤優希菜，雨坂宇宙，**山本匠**，渡邉拓貴，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/INT24012.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "イヤフォンの物理的解放：イヤフォン自動取り外しシステムの提案"
+  authors: "**山本匠**，雨坂宇宙，渡邉拓貴，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/1B-49.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "SkinRing: 装着方向に依らない指側面でのジェスチャ入力可能なリング型デバイス"
+  authors: "花山勝吾，北村莉久，**山本匠**，雨坂宇宙，Chan Liwei，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京（プレミアム発表，インタラクティブ発表賞（一般投票）)"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/2A-05.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "Selfie WanD: 自撮り棒を動かすことによる撮影用入力インタフェース"
+  authors: "澤田直春，**山本匠**，雨坂宇宙，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/bib/1B-42.html"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "TataPixel: 畳の異方性を利用した切り替え可能なディスプレイの提案"
+  authors: "北村莉久，山田憲司，**山本匠**，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/1B-61.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2024
+  title: "スマートフォンを用いた乳児あやし動作の教示システム"
+  authors: "辻ひより，**山本匠**，山路碧空，小林麻衣子，佐々木恭志郎，麻生典子，杉浦裕太"
+  venue: "インタラクション2024，学術総合センター内一橋記念講堂，東京（プレミアム発表）"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2024/data/pdf/2B-34.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "衣服を介した視覚・触覚提示可能な腹部装着型ウェアラブルロボットの提案"
+  authors: "**山本匠**、吉村凜、杉浦裕太"
+  venue: "WISS2023，Royal Hotel 八ヶ岳，山梨"
+  links:
+    - label: Link
+      url: "https://www.wiss.org/WISS2023Proceedings/data/3-B08.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "影を用いた食品表面での情報提示手法の提案"
+  authors: "**山本匠**、Biyon Fernando、雨坂宇宙、Anusha Withana、杉浦裕太"
+  venue: "FIT2023，大阪公立大学，大阪（FIT奨励賞）"
+  project: shadocookies
+  links:
+    - label: Link
+      url: "https://www.ieice.org/publications/conference-FIT-DVDs/FIT2023/data/html/program/pdf/J-052.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "スマートフォンを用いた乳児あやし動作の教示システム"
+  authors: "辻ひより、**山本匠**、山路碧空、小林麻衣子、佐々木恭志郎、麻生典子、杉浦裕太"
+  venue: "第40回センシングフォーラム，高知工科大学，高知（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2023
+  title: "指側面を入力インタフェース化するリング型デバイス"
+  authors: "花山勝吾、北村莉久、**山本匠**、雨坂宇宙、杉浦裕太"
+  venue: "第40回センシングフォーラム，高知工科大学，高知（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2023
+  title: "磁石内蔵イヤリングによる磁力変化を利用したジェスチャ識別"
+  authors: "古内丈久、**山本匠**、雨坂宇宙、杉浦裕太"
+  venue: "第40回センシングフォーラム，高知工科大学，高知（year estimated）"
+  links: []
+
+- type: Domestic Conference
+  year: 2023
+  title: "指腹開放型入力デバイスにおける文字ジェスチャ識別"
+  authors: "北村莉久，**山本匠**，杉浦裕太"
+  venue: "ロボティクス・メカトロニクス講演会2023，名古屋国際会議場，名古屋"
+  links:
+    - label: Link
+      url: "https://www.jstage.jst.go.jp/article/jsmermd/2023/0/2023_2A2-H05/_article/-char/ja/"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "静電容量の測定による畳のタッチセンサ化手法の提案"
+  authors: "澤田直春，**山本匠**，杉浦裕太"
+  venue: "ロボティクス・メカトロニクス講演会2023，名古屋国際会議場，名古屋"
+  links:
+    - label: Link
+      url: "https://www.jstage.jst.go.jp/article/jsmermd/2023/0/2023_2P1-I04/_article/-char/ja/"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "反射型光センサを用いた指先のジェスチャ識別"
+  authors: "北村莉久，**山本匠**，杉浦裕太"
+  venue: "インタラクション2023，一橋大学（プレミアム発表）"
+  links:
+    - label: Link
+      url: "https://www.interaction-ipsj.org/proceedings/2023/data/pdf/1P-65.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "反射型光センサを用いた指の皮膚変形と姿勢の計測による接触力推定の精度評価"
+  authors: "北村莉久，松井良太，**山本匠**，杉浦裕太"
+  venue: "第193回ヒューマンインタフェース学会研究会「人工現実感，エンタテインメント，メディアエクスペリエンスおよび一般（SIG-DeMO-14）」，釧路市阿寒湖まりむ館，釧路（year estimated）"
+  links:
+    - label: Link
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=220280&item_no=1&page_id=13&block_id=8"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2023
+  title: "マスクの紐の入力インタフェース化に向けたジェスチャの検討とプロトタイプの開発"
+  authors: "**山本匠**，正井克俊，Anusha Withana，杉浦裕太"
+  venue: "第193回ヒューマンインタフェース学会研究会「人工現実感，エンタテインメント，メディアエクスペリエンスおよび一般（SIG-DeMO-14）」，釧路市阿寒湖まりむ館，釧路（year estimated）"
+  links:
+    - label: Link
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=220267&item_no=1&page_id=13&block_id=8"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2022
+  title: "うなずき検出とアバタの透明度変化によるメタバース会議支援手法の提案"
+  authors: "**山本匠**，川﨑陽平，住田一眞，木田勇輝，松岡慧，小木哲郎"
+  venue: "第32回設計工学・システム部門講演会（D&S2022），岡山県立大学，岡山"
+  links: []
+
+- type: Domestic Conference
+  year: 2022
+  title: "マスクの紐をインタフェース化する手法"
+  authors: "**山本匠**，杉浦裕太"
+  venue: "第21回情報科学技術フォーラム(FIT2022)，慶應義塾大学矢上キャンパス，横浜（FIT奨励賞・FITヤングリサーチャー賞）"
+  links:
+    - label: Link
+      url: "https://www.ipsj.or.jp/award/9faeag0000004f4v-att/J-031.pdf"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2022
+  title: "既存のカーペットを用いた複数画像を切り替え可能な視覚ディスプレイシステム"
+  authors: "**山本匠**，杉浦裕太"
+  venue: "第84回情報処理学会全国大会，オンライン"
+  links:
+    - label: Link
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=221589&item_no=1&page_id=13&block_id=8"
+      badge: badge-doi
+
+- type: Domestic Conference
+  year: 2021
+  title: "布に写実性のある画像を描画するデバイスの提案"
+  authors: "**山本匠**，杉浦裕太"
+  venue: "VC+VCC 2021，オンライン（VCポスター賞）"
+  links: []
+
+- type: Domestic Conference
+  year: 2021
+  title: "布に写実性のある画像を描画するデバイスの提案"
+  authors: "**山本匠**，杉浦裕太"
+  venue: "Entertainment Computing 2021，オンライン"
+  links:
+    - label: Link
+      url: "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=212557&item_no=1&page_id=13&block_id=8"
       badge: badge-doi

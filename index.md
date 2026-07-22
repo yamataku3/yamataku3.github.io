@@ -3,15 +3,21 @@ layout: default
 title: About
 ---
 
+<div class="lang-toggle">
+  <button type="button" class="lang-btn active" data-lang="en">EN</button>
+  <button type="button" class="lang-btn" data-lang="ja">日本語</button>
+</div>
+
 <div class="profile">
-  <div class="profile-photo-placeholder">👤</div>
+  <img class="profile-photo" src="{{ '/assets/me/me.JPG' | relative_url }}" alt="Takumi Yamamoto">
   <div>
-    <h1 class="profile-name">Your Name</h1>
-    <p class="profile-position">PhD Student · Department of Computer Science<br>University Name</p>
+    <h1 class="profile-name">
+    <span class="lang-en">Takumi Yamamoto</span><span class="lang-ja" hidden>山本 匠</span></h1>
+    <p class="profile-position">
+      <span class="lang-en">PhD Student · Department of Computer Science<br>Keio University</span><span class="lang-ja" hidden>慶應義塾大学大学院開放環境科学専攻情報工学専修 博士課程3年</span>
+    </p>
     <p>
-      Brief introduction about your research interests. For example:<br>
-      I am a researcher working on <strong>natural language processing</strong> and <strong>machine learning</strong>.
-      My research focuses on building robust language models that can reason across domains.
+      <span class="lang-en">I am a researcher working on <strong>Human Computer Interaction</strong> and <strong>Digital Fabrication</strong>. My research focuses on developing novel fabrication and interaction method.</span><span class="lang-ja" hidden><strong>ヒューマン・コンピュータ・インタラクション（HCI）</strong>と<strong>デジタル・ファブリケーション</strong>分野の研究をしています。</span>
     </p>
     <div class="profile-links">
       <a href="mailto:{{ site.email }}">✉ Email</a>
@@ -27,25 +33,29 @@ title: About
   </div>
 </div>
 
-## Research Interests
+<!-- ## <span class="lang-en">Research Interests</span><span class="lang-ja" hidden>研究分野</span>
 
-- Natural Language Processing
-- Machine Learning
-- Knowledge Representation
+- <span class="lang-en">Human Computer Interaction</span><span class="lang-ja" hidden>ヒューマンコンピュータインタラクション</span> -->
 
-## News
+## <span class="lang-en">News</span><span class="lang-ja" hidden>お知らせ</span>
 
 <ul class="news-list">
+{% assign news_sorted = site.data.news | sort: "date" | reverse %}
+{% assign news_recent = news_sorted | slice: 0, 5 %}
+{% for item in news_recent %}
   <li>
-    <span class="news-date">2026-07</span>
-    <span>Paper accepted at ACL 2026.</span>
+    <span class="news-date">{{ item.date }}</span>
+    <span><span class="lang-en">{{ item.en }}</span><span class="lang-ja" hidden>{{ item.ja }}</span></span>
   </li>
-  <li>
-    <span class="news-date">2026-05</span>
-    <span>Presented work at Workshop on Reasoning in NLP.</span>
-  </li>
-  <li>
-    <span class="news-date">2025-09</span>
-    <span>Started PhD program at University Name.</span>
-  </li>
+{% endfor %}
 </ul>
+
+{% if news_sorted.size > 5 %}
+<div class="news-more">
+  <a href="{{ '/news/' | relative_url }}">
+    <span class="lang-en">View all news →</span><span class="lang-ja" hidden>お知らせ一覧を見る →</span>
+  </a>
+</div>
+{% endif %}
+
+<script src="{{ '/assets/js/lang-toggle.js' | relative_url }}"></script>

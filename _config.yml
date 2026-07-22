@@ -1,17 +1,17 @@
-title: Your Name
-tagline: "Researcher | University Name"
-email: your@email.com
+title: "Takumi Yamamoto | HCI Researcher"
+tagline: "PhD Student | Keio University"
+email: imuka06x17@keio.jp
 description: "Personal research portfolio"
 baseurl: ""
-url: "https://username.github.io"
+url: "https://yamataku3.github.io"
 
 author:
-  name: Your Name
-  position: "PhD Student / Postdoc / Professor"
-  affiliation: "Department, University"
+  name: "Takumi Yamamoto / 山本匠 HCI Researcher"
+  position: "PhD Student"
+  affiliation: "Department of Computer Science, Keio University"
   google_scholar: ""
-  github: "username"
-  twitter: "username"
+  github: "yamataku3"
+  twitter: "yamataku_3"
   orcid: ""
 
 markdown: kramdown
@@ -20,13 +20,18 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 nav_links:
   - title: About
     url: /
-  - title: Publications
-    url: /publications/
   - title: Projects
     url: /projects/
+  - title: Publications
+    url: /publications/
   - title: CV
     url: /cv/
 

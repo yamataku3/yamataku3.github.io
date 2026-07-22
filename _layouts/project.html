@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<div class="project-detail">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}">&larr; All Projects</a>
+
+  <h1 class="project-detail-title">{{ page.title }}</h1>
+
+  {% if page.venue or page.year %}
+  <p class="project-detail-meta">
+    {% if page.venue %}{{ page.venue }}{% endif %}{% if page.venue and page.year %} · {% endif %}{% if page.year %}{{ page.year }}{% endif %}
+  </p>
+  {% endif %}
+
+  {% if page.image %}
+  <img class="project-detail-image" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% endif %}
+
+  {% if page.video %}
+    {% if page.video contains "v=" %}
+      {% assign video_id = page.video | split: "v=" | last | split: "&" | first %}
+    {% elsif page.video contains "youtu.be/" %}
+      {% assign video_id = page.video | split: "youtu.be/" | last | split: "?" | first %}
+    {% else %}
+      {% assign video_id = page.video %}
+    {% endif %}
+  <div class="project-detail-video">
+    <iframe src="https://www.youtube.com/embed/{{ video_id }}" title="{{ page.title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  {% endif %}
+
+  {% if page.tags %}
+  <div class="project-tags">
+    {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.citation or page.authors or page.venue or page.links %}
+  <div class="project-pub-box">
+    <h2 class="project-detail-subhead">Publication</h2>
+    {% if page.citation %}
+    <p class="project-pub-citation">{{ page.citation }}</p>
+    {% elsif page.authors %}
+    <p class="project-pub-authors">{{ page.authors | join: ", " }}</p>
+    {% endif %}
+    {% if page.venue %}
+    <p class="project-pub-venue">{{ page.venue }}</p>
+    {% endif %}
+    {% if page.links %}
+    <div class="project-links">
+      {% for link in page.links %}
+      <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if page.abstract %}
+  <h2 class="project-detail-subhead">Abstract</h2>
+  <p class="project-abstract">{{ page.abstract }}</p>
+  {% endif %}
+
+  {% if page.awards %}
+  <h2 class="project-detail-subhead">Award</h2>
+  <div class="project-award-list">
+    {% for award in page.awards %}
+    <div class="project-award-item">
+      <span class="project-award-icon">🏆</span>
+      <div>
+        <div class="project-award-name">{{ award.name }}</div>
+        <div class="project-award-venue">
+          {% if award.venue %}{{ award.venue }}{% endif %}{% if award.venue and award.date %} · {% endif %}{% if award.date %}{{ award.date }}{% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.related_links %}
+  <h2 class="project-detail-subhead">Related Links</h2>
+  <div class="project-links">
+    {% for link in page.related_links %}
+    <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="project-detail-body">
+    {{ content }}
+  </div>
+</div>
