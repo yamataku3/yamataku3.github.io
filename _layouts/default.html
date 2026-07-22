@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for link in site.nav_links %}
+        <a href="{{ link.url | relative_url }}" {% if page.url == link.url %}class="active"{% endif %}>
+          {{ link.title }}
+        </a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank">GitHub</a>
+        {% endif %}
+        {% if site.author.google_scholar != "" %}
+        <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}" target="_blank">Google Scholar</a>
+        {% endif %}
+        {% if site.author.twitter %}
+        <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank">Twitter/X</a>
+        {% endif %}
+        {% if site.author.orcid != "" %}
+        <a href="https://orcid.org/{{ site.author.orcid }}" target="_blank">ORCID</a>
+        {% endif %}
+      </div>
+      <p class="footer-copy">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    </div>
+  </footer>
+</body>
+</html>

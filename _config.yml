@@ -1,0 +1,37 @@
+title: Your Name
+tagline: "Researcher | University Name"
+email: your@email.com
+description: "Personal research portfolio"
+baseurl: ""
+url: "https://username.github.io"
+
+author:
+  name: Your Name
+  position: "PhD Student / Postdoc / Professor"
+  affiliation: "Department, University"
+  google_scholar: ""
+  github: "username"
+  twitter: "username"
+  orcid: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+nav_links:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

@@ -1,0 +1,33 @@
+# Publications data
+# year: publication year
+# title: paper title
+# authors: author list — use *Your Name* to bold your name
+# venue: conference or journal name
+# links: optional links (pdf, arxiv, code, doi)
+
+- year: 2026
+  title: "Your Paper Title Here: A Study on Something Interesting"
+  authors: "**Your Name**, Co-author A, Co-author B"
+  venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+  links:
+    - label: PDF
+      url: "#"
+      badge: badge-pdf
+    - label: arXiv
+      url: "#"
+      badge: badge-arxiv
+    - label: Code
+      url: "#"
+      badge: badge-code
+
+- year: 2025
+  title: "Another Paper Title: Improving Something with New Method"
+  authors: "Co-author A, **Your Name**, Co-author C"
+  venue: "Proceedings of EMNLP 2025"
+  links:
+    - label: PDF
+      url: "#"
+      badge: badge-pdf
+    - label: DOI
+      url: "#"
+      badge: badge-doi
