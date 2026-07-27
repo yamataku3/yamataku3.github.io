@@ -2,6 +2,19 @@
 # date: "YYYY-MM" (or "YYYY-MM-DD")
 # en / ja: bilingual text shown via the lang-toggle
 
+- date: "2026-07-27"
+  en: "One paper was presented in EMBC2026."
+  ja: "主著1件をEMBC2026で発表しました。"
+
+- date: "2026-07-17"
+  en: "I passed the PhD defense! "
+  ja: "博士論文の公聴会に合格しました！"
+
+- date: "2026-07-21"
+  en: "<a href=\"https://dl.acm.org/doi/10.1145/3799825.3818724\" target=\"_blank\">One co-author poster paper</a> was presented in SIGGRAPH 2026."
+  ja: "共著1件(ポスター)がSIGGRAPH 2026で発表されました。"
+
+
 - date: "2026-07"
   en: "Renewal my portfolio!"
   ja: "ポートフォリオをリニューアルしました！"

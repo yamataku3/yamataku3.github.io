@@ -101,6 +101,18 @@
 
 # --- International Conference (Paper, Peer Reviewed) ---
 
+
+- type: International Conference (Paper)
+  year: 2026
+  title: "Blurry Class-Incremental Learning for IMU-Based Human Activity Recognition: An Empirical Study"
+  authors: "**Takumi Yamamoto**, Suguru Kanoga, Mitsunori Tada, Yuta Sugiura"
+  venue: "Proceedings for the 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2026)"
+  # project: B-CIL for IMU-based HAR
+  links:
+    - label: DOI
+      url: "/"
+      badge: badge-doi
+
 - type: International Conference (Paper)
   year: 2026
   title: "Zip-up Print: Rapid and Assemblable 3D printing Using 2D Flattened Zipper-like Structures"
