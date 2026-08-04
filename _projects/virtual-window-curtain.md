@@ -6,7 +6,7 @@ year: 2023
 venue: "APMAR 2023"
 
 tags: [Research]
-images: /assets/teasers/project-curtain.png
+image: /assets/teasers/project-curtain.png
 external_link: "https://ceur-ws.org/Vol-3467/short4.pdf"
 authors:
   - "Naoharu Sawada"

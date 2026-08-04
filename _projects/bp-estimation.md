@@ -5,8 +5,8 @@ description: "Comparison of Nine Deep Regressors in Continuous Blood Pressure Es
 year: 2025
 venue: "SII 2025"
 tags: [Research]
-PDF: /assets/slides/SII2025_yamamoto_final.pdf
-images: /assets/teasers/project_bp_estimation.jpg
+pdf: /assets/slides/SII2025_yamamoto_final.pdf
+image: /assets/teasers/project_bp_estimation.jpg
 authors:
   - "Takumi Yamamoto"
   - "Suguru Kanoga"

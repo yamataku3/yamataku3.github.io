@@ -5,7 +5,7 @@ description: "EnchantedClothes: Visual and Tactile Feedback with an Abdomen-Atta
 year: 2024
 venue: "AsiaHaptics 2024"
 tags: [Research, Wearable, Haptics]
-images: /assets/teasers/project_enchantedClothes.png
+image: /assets/teasers/project_enchantedClothes.png
 authors:
   - "Takumi Yamamoto"
   - "Rin Yosimura"
