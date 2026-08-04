@@ -6,6 +6,7 @@ year: 2026
 venue: "CHI 2026"
 image: /assets/teasers/project_zipupprint.png
 video: "https://www.youtube.com/watch?v=8r8dpDAgUok"
+pdf: /assets/slides/zip-up-print_slides.pdf
 tags: [Research, Fabrication]
 authors:
   - "Takumi Yamamoto"

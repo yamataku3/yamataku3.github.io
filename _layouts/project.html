@@ -87,6 +87,13 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.pdf %}
+  <h2 class="project-detail-subhead">Slides</h2>
+  <div class="project-slides-pdf">
+    <iframe src="{{ page.pdf | relative_url }}" title="{{ page.title }} slides" loading="lazy"></iframe>
+  </div>
+  {% endif %}
+
   <div class="project-detail-body">
     {{ content }}
   </div>

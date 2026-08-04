@@ -6,6 +6,7 @@ year: 2023
 venue: "ISS 2023"
 tags: [Research]
 external_link: "https://doi.org/10.1145/3626480"
+image: /assets/teasers/project_mist.png
 authors:
   - "Tian Min"
   - "Chengshuo Xia"

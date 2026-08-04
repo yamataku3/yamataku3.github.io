@@ -8,6 +8,7 @@ tags: [Research, Fabrication]
 authors:
   - "Takumi Yamamoto"
   - "Yuta Sugiura"
+image: /assets/teasers/project_graffitifur-yamamoto-300x225.png
 links:
   - label: "Paper (DOI)"
     url: "https://doi.org/10.1016/j.gvc.2022.200045"

@@ -9,6 +9,8 @@ authors:
   - "Takumi Yamamoto"
   - "Ryohei Baba"
   - "Yuta Sugiura"
+images: /assets/teasers/project-badminton.png
+
 links:
   - label: "Paper (PDF)"
     url: "https://ceur-ws.org/Vol-3467/short2.pdf"

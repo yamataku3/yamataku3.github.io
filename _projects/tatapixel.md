@@ -5,6 +5,7 @@ description: "Ambient Display Utilizing Anisotropy of Tatami"
 year: 2025
 venue: "TEI 2025"
 tags: [Research, Fabrication]
+image: /assets/teasers/project_tatapixel-1.png
 external_link: "https://dl.acm.org/doi/10.1145/3689050.3704924"
 authors:
   - "Riku Kitamura"

@@ -5,11 +5,13 @@ description: "Designing and Identifying Gestures to Transform Mask Strap into an
 year: 2023
 venue: "IUI 2023"
 tags: [Research, Wearable]
+video: https://www.youtube.com/watch?v=CU4q24YHiN8
 authors:
   - "Takumi Yamamoto"
   - "Katsutoshi Masai"
   - "Anusha Withana"
   - "Yuta Sugiura"
+image: /assets/teasers/project_maskstrap.png
 links:
   - label: "Paper (DOI)"
     url: "https://doi.org/10.1145/3581641.3584062"

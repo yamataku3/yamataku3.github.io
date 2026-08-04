@@ -5,6 +5,7 @@ description: "Camera-Based Approach for Estimating Neonate's Posture Based on Ca
 year: 2025
 venue: "SII 2025"
 tags: [Research]
+image: /assets/teasers/project_cradleposture.png
 external_link: "https://ieeexplore.ieee.org/document/10870587"
 authors:
   - "Hiyori Tsuji"
